@@ -18,3 +18,4 @@ class SupabaseConnection:
             return self.supabase
         else:
             raise ValueError("As variáveis de ambiente SUPABASE_URL e SUPABASE_KEY não estão definidas corretamente.")
+        
